@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>going</title>
+ <meta charset="utf-8">
+</head>
+
+<body>
+ <h1>오늘의 내 <a href="https://ko.wikipedia.org/wiki/%EC%9E%90%EC%82%B0" target="_blank">자산</a>은?</h1>
+ 자산흐름을 체크 할 수 있습니다.
+
+ <h2>자산리스트</h2>
+
+<ul>
+   <img src="환율.jpg" alt="환율" width="200">
+   <li><a href="https://finance.daum.net/exchanges" target="_blank">환율</a></li>
+   <img src="gold.jpg" width="200" alt="">
+  <li><a href="https://finance.naver.com/marketindex/goldDetail.nhn" target="_blank">금</a></li>
+  <li><a href="https://www.marketwatch.com/investing/index/dxy" target="_blank">달러인덱스</a></li>
+  <li><a href="https://www.google.com/finance/quote/KOSPI:KRX?sa=X&ved=2ahUKEwiii9nYi-r1AhXRCN4KHYaBBbwQ3ecFegQIIhAc&window=5D" target="_blank">주식</a></li>
+</ul>
+<table border="1">
+  <thead>
+    <tr>
+      <th>model</th> <th>ref.</th> <th>dial color</th> <th>price</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>sub</td> <td colspan="2">116610</td>  <td>11800000</td>
+    </tr>
+  </tbody>
+
+</table>
+<form action="index.html" method="post">
+  <p>보유한 시계:<input type="text" name="보유시계" value=""></p>
+  <p>관심있는시계:<input type="text" name="관심있는시계" value=""></p>
+  <p>나이:<input type="text"></p>
+  <textarea name="가입동기" rows="10" cols="25">가입동기를 적어주세요. 추첨을 통해 스타벅스 상품권을 보내드립니다.</textarea>
+
+  <h3>원하는 시계를 선택하여 주세요</h3>
+  <select name="wantedwatch">
+    <option value="gmtmaster2">gmtmaster2</option>
+    <option value="submarinerdate">submarinerdate</option>
+    <option value="daytona">daytona</option>
+    <option value="explorer1">explorer1</option>
+  </select>
+  <h3>좋아하는 이유는? (다중선택가능)</h3>
+  <select name="wantedwatch" multiple>
+    <option value="gmtmaster2">사이즈</option>
+    <option value="submarinerdate">부담없어서</option>
+    <option value="daytona">투자목적</option>
+    <option value="explorer1">전투용으로</option>
+  </select>
+
+  <input type="submit">
+
+</form>
+
+
+
+ </body>
+ </html>
